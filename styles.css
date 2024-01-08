@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    margin-left: 200px;
+    margin-top: 200px;
+    position: relative;
+}
+.box{
+    width: 150px;
+    height: 150px;
+}
+.box:nth-child(1){
+    background-color: #fd8988;
+    position: absolute;
+}
+.box:nth-child(2){
+    background-color: #7e8ae9;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+}
+.box:nth-child(3){
+    background-color: #4cea9c;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
